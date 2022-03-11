@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORMULARIO DE REGISTRO</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+	input[type=text],
+	select {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid rgb(194, 192, 192);
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	input[type=submit] {
+		width: 100%;
+		background-color: rgb(66, 112, 209);
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+		background-color: rgb(66, 112, 209);
+	}
+
+	div {
+		border-radius: 5px;
+		background-color: rgb(242, 242, 242);
+		padding: 20px;
+	}
+</style>
+
+<body>
+
+	<h3>
+		<center>Registro de proveedores</center>
+	</h3>
+
+	<div class="container">
+		<form action="/action_page.php">
+			<input type="text" name="Nombre" placeholder="Fecha" required=""><br /><br />
+			<input type="text" name="Nombre de proveedor" placeholder="Nombre de proveedor" required=""><br /><br />
+			<input type="text" name=" Nit" placeholder="Nit del proveedor" required=""><br /><br />
+			<input type="text" name=" Acvtividad principal" placeholder="Acvtividad principal" required=""><br /><br />
+			<input type="text" name=" Direccion" placeholder="Direccion del proveedor" required=""><br /><br />
+			<input type="text" name=" correo electronico" placeholder="correo electronico" required=""><br /><br />
+			<input type="text" name=" Numero de contacto" placeholder="Numero de contacto" required=""><br /><br />
+			<input type="text" name=" Nombre del solicitante" placeholder="Nombre del solicitante"
+				required=""><br /><br />
+			<input type="text" name=" Nit del solicitante" placeholder="Nit del solicitante" required=""><br /><br />
+			<input type="text" name=" Producto a pedir" placeholder="Producto a pedir" required=""><br /><br />
+			<input type="text" name=" Fecha de pedido" placeholder="Fecha de pedido" required=""><br /><br />
+			<input type="submit" class="btn btn-green" value="Guardar registro">
+
+
+		</form>
+	</div>
+
+</body>
+
+</html>
