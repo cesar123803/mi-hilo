@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de contacto Cascoenvios</title>
+  <link rel="shortcut icon" href="./images/faviconCascoEnviosP.O.S software.png " type="image/x-icon">
+  <link rel="stylesheet" href="./CSS/normalize.css">
+  <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+
+<body>
+  <section class="formulario__contacto">
+    <h1>FORMULARIO</h1>
+    <H2>CONTACTO DE CONTACTO CASCOENVIOS </H2>
+
+    <form action="registrardatos.php" method="post">
+      Ingrese su nombre:
+      <input type="text" name="nombre" size="20">
+      <br>
+      <input type="submit" value="enviar">
+      <br>
+      <br>
+
+      Ingrese su telefono:
+
+      <input type="tel" name="telefono" size="20">
+      <br>
+      <input type="submit" value="enviar">
+      <br>
+      <br>
+
+      <hr>
+      Ingrese el producto de su preferencia:
+      <br>
+      Cascos para moto<input type="radio" value="Cangrejo" name="r1"><br>
+      Proteccion al motero<input type="radio" value="Ceviche" name="r1"><br>
+      Cascos para bicicleta<input type="radio" value="Cazuela de marisco " name="r1"><br>
+      Herramientas para bici<input type="radio" value="Salmon" name="r1"><br>
+      <br>
+      Otro cual:
+      <br>
+      <textarea name="Ingrese aqui el texto " id="" cols="20" rows="5"></textarea>
+      <br>
+      <hr>
+
+      <hr>
+
+      Ingresa tu genero:
+      <br>
+      Hombre<input type="radio" value="Hombre" name="r1"><br>
+      Mujer<input type="radio" value="Mujer" name="r1"><br>
+      Otro cual<input type="radio" value="Otro cual" name="r1"><br>
+      <br>
+
+
+      Califique su experiencia<br>
+      <select name="experiencia[]" size="4" multiple>
+        <option value="Excelente">Excelente</option>
+        <option value="Muy bueno ">Muy bueno</option>
+        <option value="regular">regular</option>
+        <option value="malo">malo</option>
+        <option value="Uribe">Uribe</option>
+
+      </select>
+      <br>
+      <input type="submit" value="Enviar">
+
+      <hr>
+
+      <button type="reset">Borrar</button> Borrar formulario
+      <hr>
+      <button type="submit">Enviar</button> Enviar formulario
+      <hr>
+      <input type="datetime-local"> Fecha de diligenciado este formulario
+      <hr>
+
+      Sugerencias:
+      <br>
+      <textarea name="Ingrese aqui el texto " id="" cols="20" rows="5"></textarea>
+      <br>
+      <hr>
+
+
+
+    </form>
+
+  </section>
+
+
+</body>
+
+</html>
